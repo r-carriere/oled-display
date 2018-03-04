@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="0.1">
+  <Name>OLED Status Display</Name>
+  <Repository>r-carriere/oled-display</Repository>
+  <Registry></Registry>
+  <Network>none</Network>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Overview>need to add overview</Overview>
+  <Category>Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/r-carriere/oled-display/oled-display.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/r-carriere/oled-display/icon.jpg</Icon>
+  <ExtraParams/>
+  <DateInstalled/>
+  <Description>need to add description</Description>
+  <Networking/>
+  <Data>
+    <Volume>
+      <HostDir>/var/local/emhttp</HostDir>
+      <ContainerDir>/var/local/emhttp</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Config Name="OLED Port" Target="/dev/ttyACM0" Default="/dev/ttyACM0" Mode="rwm" Description="" Type="Device" Required="true">/dev/ttyACM0</Config>
+</Container>
